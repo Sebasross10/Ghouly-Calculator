@@ -71,16 +71,6 @@ button {
     cursor: pointer;
     transition: all 200ms ease;
 }
-button#cero {
-    height: 60px;
-    width: 120px;
-    border: 0;
-    border-radius: 30px;
-    margin: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: all 200ms ease;
-}
 
 button:hover {
     transform: scale(1.1);
@@ -106,6 +96,12 @@ button#equal {
   .calculator button.btn-number {
     background-color: #313131;
     color: #f8fafb;
+  }
+  .calculator button.btn-number0 {
+    background-color: #313131;
+    color: #f8fafb;
+    height: 60px;
+    width: 120px;
   }
 
   .calculator button.btn-operator {
